@@ -1,7 +1,7 @@
 //normalmente ao mechermos com typescript vamos nos deparar com uma pasta "public" e uma pasta "src"
 //para a pasta public vai o html e o javascript , para a pasta src vai o codigo typescript.
 
-//para gerar o codigo javascript no codigo certo damos o comando no terminal assim "tsc o nome da pasta e o nome do arquivo e o comando --outDir nome da pasta final.. ficando assim :
+//para GERAR o codigo JAVASCRIPT do codigo TYPESCRIPT, damos o comando no terminal assim "tsc o nome da pasta e o nome do arquivo e o comando --outDir no final.. ficando assim :
 // tsc src/3_script.ts --outDir public
 
 

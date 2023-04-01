@@ -16,5 +16,7 @@ function calcular(n1, n2) {
 }
 botao.addEventListener('click', function () {
     res.innerHTML = calcular(numero1.value, numero2.value).toString();
+    
 });
 //como fazemos para converter o código? vamos no terminal do vs ja com a pasta selecionada...
+
