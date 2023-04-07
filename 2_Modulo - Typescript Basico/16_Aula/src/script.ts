@@ -1,31 +1,9 @@
-// types para funcao, 
+// retorno void, é quando temos uma função que vai cumprir o papel dela, mas ela nao tem nenhum tipo de retorno, ou seja, nao esperamos nenhum tipo de retorno para essa função.
 
-type MathFunction = (n1:number,n2:number) => number;
-
-// no comando acima, criamos um parametros que sera numbers e definimos que o retorno também será um number.
-
-
-/*
-const somar = (n1,n2) => {
-    return n1 + n2;
-}
-*/
-
-//agora para que essa variavel esteja formatada no type criado fazermo assim:
-
-const somar:MathFunction = (n1,n2) => {
-    return n1 + n2;
+function removerElemento(el: HTMLElement):void {
+    // processo de remoção do elemento
+    el.remove();
 }
 
-const subtrair: MathFunction = (n1,n2) => {
-    return n1 - n2
-}
+removerElemento( document.getElementById('teste'));
 
-const multiplicar: MathFunction = (n1,n2) => {
-    return n1 * n2
-}
-
-
-const dividir: MathFunction = (n1,n2) => {
-    return n1/n2;
-}
