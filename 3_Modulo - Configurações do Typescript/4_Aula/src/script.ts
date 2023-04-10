@@ -8,4 +8,4 @@ function blabla(n1: number) : string {
 blabla(15);
 
 
-//uma vez que temos esse cara criado, podemos ir no terminal e escrever somente "tsc" que ele ira criar os arquivos necessarios para nós!
+//O target é uma opção de configuração no arquivo tsconfig.json do TypeScript que define qual versão do ECMAScript (ES) deve ser usada na compilação do código TypeScript para JavaScript.
